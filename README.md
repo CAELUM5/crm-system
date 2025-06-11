@@ -1,20 +1,20 @@
-# 🚀 CRM Application
+#  CRM Application
 
 A complete Customer Relationship Management (CRM) system built with React, Next.js, and Redux Toolkit. Features authentication, dashboard analytics, and product management with a modern, responsive design.
 
-![CRM Dashboard](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=CRM+Dashboard+Preview)
+CRM live site link: https://my-crm-sys.vercel.app
 
-## ✨ Features
+##  Features
 
-- 🔐 **Authentication System** - Secure login with session management
-- 📊 **Interactive Dashboard** - Charts, analytics, and business metrics
-- 📦 **Product Management** - Full CRUD operations for inventory
-- 🎨 **Modern UI** - Clean, responsive design with Tailwind CSS
-- 🔄 **State Management** - Redux Toolkit for efficient data handling
-- 📱 **Mobile Responsive** - Works perfectly on all devices
-- ⚡ **Fast Performance** - Optimized with Next.js 14
+-  **Authentication System** - Secure login with session management
+-  **Interactive Dashboard** - Charts, analytics, and business metrics
+-  **Product Management** - Full CRUD operations for inventory
+-  **Modern UI** - Clean, responsive design with Tailwind CSS
+-  **State Management** - Redux Toolkit for efficient data handling
+-  **Mobile Responsive** - Works perfectly on all devices
+-  **Fast Performance** - Optimized with Next.js 14
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18, Next.js 14, TypeScript
 - **State Management:** Redux Toolkit
@@ -24,7 +24,7 @@ A complete Customer Relationship Management (CRM) system built with React, Next.
 - **API:** DummyJSON with mock fallback
 - **Deployment:** Vercel
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Demo Credentials
 Try the live demo with these credentials:
@@ -53,7 +53,7 @@ Try the live demo with these credentials:
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+##  Project Structure
 
 \`\`\`
 ├── app/                    # Next.js App Router
@@ -72,7 +72,7 @@ Try the live demo with these credentials:
 └── public/              # Static assets
 \`\`\`
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### Authentication
 - Secure login system with session persistence
@@ -91,49 +91,12 @@ Try the live demo with these credentials:
 - Image upload support
 - Stock management
 - Category organization
-
-## 🌐 Deployment
-
-### Deploy to Vercel (Recommended)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/crm-application)
-
-### Manual Deployment
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to your hosting provider
-
-## 🔧 Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-\`\`\`env
-NEXT_PUBLIC_API_URL=https://dummyjson.com
-NEXT_PUBLIC_ENABLE_MOCK_AUTH=true
-\`\`\`
-
-## 📱 Screenshots
-
-### Login Page
-Clean, professional login interface with demo credentials
-
-### Dashboard
-Interactive charts and business metrics overview
-
-### Product Management
-Complete CRUD interface for inventory management
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
+- 
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Next.js](https://nextjs.org/) - React framework
 - [Redux Toolkit](https://redux-toolkit.js.org/) - State management
