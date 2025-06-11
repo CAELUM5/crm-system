@@ -32,46 +32,6 @@ Try the live demo with these credentials:
 - Username: `demo` | Password: `demo123`
 - Username: `test` | Password: `test123`
 
-### Local Development
-
-1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/yourusername/crm-application.git
-   cd crm-application
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-##  Project Structure
-
-\`\`\`
-├── app/                    # Next.js App Router
-│   ├── dashboard/         # Dashboard with charts & analytics
-│   ├── login/            # Authentication page
-│   ├── products/         # Product management (CRUD)
-│   └── layout.tsx        # Root layout
-├── components/           # Reusable UI components
-│   ├── ui/              # shadcn/ui components
-│   ├── auth-guard.tsx   # Route protection
-│   └── layout/          # Navigation & sidebar
-├── lib/                 # Core utilities
-│   ├── features/        # Redux slices (auth, products)
-│   ├── store.ts         # Redux store configuration
-│   └── hooks.ts         # Custom React hooks
-└── public/              # Static assets
-\`\`\`
-
 ##  Key Features Explained
 
 ### Authentication
